@@ -7,15 +7,9 @@ package Prototype;
 
 /**
  *
- * @author USUARIO
+ * @author jonny
  */
-public class Prototype {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public interface Clonable {
     
+ Clonable clonar();
 }
